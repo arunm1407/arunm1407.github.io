@@ -4,10 +4,22 @@ import { Briefcase } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
+      company: "PayPal",
+      companyUrl: "https://www.paypal.com/",
+      position: "Senior Software Engineer – Android Developer",
+      period: "Present",
+      location: "Bangalore",
+      description: [
+        "Building innovative payment solutions and features for PayPal's Android application",
+        "Working with cutting-edge Android technologies to deliver seamless user experiences",
+        "Collaborating with cross-functional teams to drive technical excellence"
+      ]
+    },
+    {
       company: "Walmart Global Tech",
       companyUrl: "https://tech.walmart.com/",
       position: "Software Engineer III – Android Developer",
-      period: "Jan 2025 – Present",
+      period: "Jan 2025 – Recent",
       location: "Bangalore",
       description: [
         "Migration of legacy code from MVP to MVVM with Clean Architecture",
