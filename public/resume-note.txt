@@ -1,0 +1,7 @@
+To enable PDF download functionality:
+
+1. Create your resume as a PDF file
+2. Save it as 'resume.pdf' in the /public folder
+3. The download button on the /resume page will automatically link to it
+
+The resume page is already set up and will work once you add your PDF file.

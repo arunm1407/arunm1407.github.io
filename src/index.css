@@ -144,3 +144,48 @@ All colors MUST be HSL.
     animation: fade-in 0.8s ease-out;
   }
 }
+
+/* Print Styles for Resume */
+@media print {
+  @page {
+    size: A4;
+    margin: 1cm;
+  }
+
+  body {
+    @apply bg-white text-black;
+  }
+
+  /* Hide navigation and action buttons */
+  nav,
+  .print\\:hidden {
+    display: none !important;
+  }
+
+  /* Ensure proper page breaks */
+  section {
+    page-break-inside: avoid;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  /* Optimize link display */
+  a[href]:after {
+    content: none !important;
+  }
+
+  /* Remove shadows and borders for cleaner print */
+  .shadow-lg,
+  .shadow-md,
+  .shadow-sm {
+    box-shadow: none !important;
+  }
+
+  /* Ensure proper colors for print */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
