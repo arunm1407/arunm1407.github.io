@@ -9,7 +9,15 @@ const About = () => {
         <Card className="p-8 border-border bg-card hover:bg-card-hover transition-colors">
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
             <p>
-              I'm currently a <span className="text-foreground font-semibold">Software Engineer III</span> at{" "}
+              I'm currently a <span className="text-foreground font-semibold">Senior Software Engineer</span> at{" "}
+              <a 
+                href="https://www.paypal.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
+                PayPal
+              </a>, building world-class payment solutions on Android. Previously, I worked at{" "}
               <a 
                 href="https://www.walmart.com/" 
                 target="_blank" 
@@ -17,7 +25,7 @@ const About = () => {
                 className="text-primary hover:underline"
               >
                 Walmart Global Tech
-              </a>, working on cutting-edge Android applications. Previously, I spent several years at{" "}
+              </a>{" "}and{" "}
               <a 
                 href="https://www.zoho.com/" 
                 target="_blank" 

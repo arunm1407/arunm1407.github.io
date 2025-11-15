@@ -15,10 +15,10 @@ const Hero = () => {
               I'm <span className="text-foreground font-semibold">Arunkumar M</span>, a passionate
             </p>
             <p className="text-2xl md:text-3xl lg:text-4xl text-muted-foreground">
-              Software Engineer currently focusing
+              Senior Software Engineer at <span className="text-primary font-semibold">PayPal</span>
             </p>
             <p className="text-2xl md:text-3xl lg:text-4xl text-muted-foreground">
-              my efforts on the Android platform. <span className="inline-block">👨‍💻</span>
+              building innovative Android solutions. <span className="inline-block">👨‍💻</span>
             </p>
           </div>
 
